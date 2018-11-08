@@ -1,0 +1,16 @@
+#ac_shortcode_builder .final{
+    margin: 15px 0;
+    /*opacity:0;*/
+}
+#ac_shortcode_builder .generate_shortcode{
+    text-align: center;
+    font-weight: 700;
+}
+#ac_shortcode_builder .label{
+    font-weight: 700;
+    margin: 5px 0;
+}
+#ac_shortcode_builder .section textArea,
+#ac_shortcode_builder .section input[type="text"]{
+    width: 100%;
+}
