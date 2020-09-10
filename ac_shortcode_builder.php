@@ -55,7 +55,7 @@ function ac_shortcode_html_gen(){
 }
 
 if (!function_exists('ac_shortcode_load_modules')) {
-	ac_shortcode_load_modules('/modules/');
+	
 	function ac_shortcode_load_modules($dir = null, $extensions = array(), $exclude = array()){
 		$dir = __DIR__.$dir;
 		$files = scandir($dir);
@@ -72,8 +72,9 @@ if (!function_exists('ac_shortcode_load_modules')) {
 			}
 		}
 	}
+	//ac_shortcode_load_modules('/modules/');
 } else {
-    ac_shortcode_load_modules('/modules/');
+    //ac_shortcode_load_modules('/modules/');
 }
 
 function ac_shortcode_getFileExtension($filename){
